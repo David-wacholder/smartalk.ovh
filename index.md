@@ -1,19 +1,23 @@
+{{ page.content | smartalkify }}
+
+
+
 ---
 layout: home
-title: Smartalk – מערכת טלפוניה חכמה לעסקים
+title: Smartalk – טלפוניה חכמה, תוצאות מנצחות!
 permalink: /
 ---
 
 <div style="text-align: center; padding: 2rem;">
   <img src="https://raw.githubusercontent.com/David-wacholder/smartalk.ovh/refs/heads/main/assets/images/%E2%80%8F%E2%80%8Fsmartalk-logo.png" alt="Smartalk Logo" style="max-width: 200px; margin-bottom: 1rem;" />
   <h1 style="color: #0A2647;">Smartalk</h1>
-  <p style="font-size: 1.2rem; color: #333;">מערכת טלפוניה חכמה לעסקים – פתרונות תקשורת מתקדמים, שליטה מלאה, שירות קל ונגיש</p>
+  <p style="font-size: 1.2rem; color: #333;">טלפוניה חכמה, תוצאות מנצחות! – פתרונות תקשורת מתקדמים, שליטה מלאה, שירות קל ונגיש</p>
   <a href="{{ '/contact' | relative_url }}" style="display: inline-block; margin-top: 1.5rem; padding: 0.75rem 1.5rem; background-color: #40E0D0; color: white; border-radius: 8px; text-decoration: none;">צור קשר</a>
 </div>
 
 # טלפוניה חכמה – תוצאות מנצחות
 
-ברוכים הבאים ל־Smartalk.
+ברוכים הבאים ל־<span class="smartalk-word">Smartalk</span>.
 כאן הופכים שיחות טלפון לכלי עוצמתי של אוטומציה, תקשורת וחדשנות.
 
 ## מה אנחנו עושים?
@@ -31,7 +35,7 @@ permalink: /
 
 ## רוצה לשמוע עוד?
 
-[צור קשר](#) ונראה איך גם אתה יכול לדבר חכם.
+[צור קשר]({{ '/contact' | relative_url }}) ונראה איך גם אתה יכול לדבר חכם.
 
 ---
 
