@@ -135,3 +135,19 @@ h1, h2, h3, h4, h5, h6 {
 body {
   padding-top: 98.32px; // תוכל לכוונן לפי הגובה האמיתי של ההדר
 }
+
+$smartalk-color-smart: #0A2647;
+$smartalk-color-talk: #40E0D0;
+
+.smartalk-word {
+  font-family: 'Assistant ExtraBold', sans-serif;
+  font-weight: 800;
+}
+
+.smartalk-smart {
+  color: $smartalk-color-smart;
+}
+
+.smartalk-talk {
+  color: $smartalk-color-talk;
+}
