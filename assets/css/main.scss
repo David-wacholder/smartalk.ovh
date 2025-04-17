@@ -11,7 +11,7 @@ $text-color: #333333;
 $background-color: #ffffff;
 
 /* גופנים עבריים */
-@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Assistant:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700&family=Assistant:wght@300;400;600;700;800&display=swap');
 
 /* הגדרות RTL */
 $dir: rtl;
@@ -140,7 +140,7 @@ $smartalk-color-smart: #0A2647;
 $smartalk-color-talk: #40E0D0;
 
 .smartalk-word {
-  font-family: 'Assistant ExtraBold', sans-serif;
+  font-family: 'Assistant', sans-serif;
   font-weight: 800;
 }
 
