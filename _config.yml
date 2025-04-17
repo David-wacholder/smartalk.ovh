@@ -1,0 +1,54 @@
+# Site settings
+title: Smartalk
+title_separator: " | "
+name: Smartalk
+description: "מערכת טלפוניה חכמה לעסקים"
+url: "" # בהמשך תכניס כאן את הדומיין שלך אם יש (למשל: https://smartalk.co.il)
+baseurl: "" # השאר ריק אם האתר ברמת root
+
+# Author (לא חובה אבל מוסיף פרטים באזורים מסוימים)
+author:
+  name: Smartalk
+  avatar: "/assets/logo.png" # אם תעלה לוגו
+  bio: "מערכת טלפוניה לעסק שלך"
+  location: "Israel"
+
+# Theme
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+
+# Build settings
+plugins:
+  - jekyll-include-cache
+
+markdown: kramdown
+highlighter: rouge
+
+# Navigation
+header_pages:
+  - index.md
+  - about.md
+  - contact.md
+
+# UI Text direction (מתאים גם לעברית אם תכתוב מימין לשמאל)
+direction: ltr
+
+# Custom Colors (נשנה בהמשך דרך CSS אם תרצה)
+minimal_mistakes_skin: "default"
+
+# Social (אם תרצה בהמשך)
+# social:
+#   twitter: your_twitter
+#   linkedin: your_linkedin
+
+# Analytics (לא חובה כרגע)
+# google_analytics: UA-XXXXXXXX-X
+
+# Defaults (מאפשר שימוש בפריסה אחידה לכל הקבצים)
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: single
+      author_profile: false
+
