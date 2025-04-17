@@ -6,7 +6,7 @@ subtitle: "מערכת טלפוניה חכמה לעסקים"
 description: "Smartalk - פתרונות טלפוניה מתקדמים לעסקים"
 url: "smartalk.ovh" # בהמשך תכניס כאן את הדומיין שלך אם יש (למשל: https://smartalk.co.il)
 baseurl: "" # השאר ריק אם האתר ברמת root
-logo: "/assets/smartalk-logo.png"
+logo: "https://raw.githubusercontent.com/David-wacholder/smartalk.ovh/refs/heads/main/assets/images/%E2%80%8F%E2%80%8Fsmartalk-logo.png"
 masthead_title: "Smartalk"
 
 # הגדרות אזור ושפה
