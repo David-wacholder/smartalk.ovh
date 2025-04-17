@@ -2,24 +2,45 @@
 title: Smartalk
 title_separator: " | "
 name: Smartalk
-description: "מערכת טלפוניה חכמה לעסקים"
+subtitle: "מערכת טלפוניה חכמה לעסקים"
+description: "Smartalk - פתרונות טלפוניה מתקדמים לעסקים"
 url: "" # בהמשך תכניס כאן את הדומיין שלך אם יש (למשל: https://smartalk.co.il)
 baseurl: "" # השאר ריק אם האתר ברמת root
+logo: "/assets/images/smartalk-logo.png"
+masthead_title: "Smartalk"
+
+# הגדרות אזור ושפה
+locale: "he-IL"
+
+# הגדרות RTL
+direction: rtl # שינוי מ-ltr ל-rtl עבור תמיכה בעברית
 
 # Author (לא חובה אבל מוסיף פרטים באזורים מסוימים)
 author:
   name: Smartalk
-  avatar: "/assets/logo.png" # אם תעלה לוגו
+  avatar: "/assets/images/smartalk-logo.png" # עדכון נתיב לתיקייה הנכונה
   bio: "מערכת טלפוניה לעסק שלך"
   location: "Israel"
 
 # Theme
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
+# צבעי מותג מותאמים אישית (נשתמש בזה בהמשך בקוד CSS)
+color_scheme:
+  primary: "#0A2647"     # כחול כהה
+  accent: "#40E0D0"      # טורקיז
+  text: "#333333"        # טקסט כהה
+  background: "#ffffff"  # רקע לבן
+
+# הגדרות פונטים
+font_family: '"Heebo", "Assistant", sans-serif'
+
 # Build settings
 plugins:
   - jekyll-include-cache
-
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
 markdown: kramdown
 highlighter: rouge
 
@@ -29,11 +50,8 @@ header_pages:
   - about.md
   - contact.md
 
-# UI Text direction (מתאים גם לעברית אם תכתוב מימין לשמאל)
-direction: ltr
-
-# Custom Colors (נשנה בהמשך דרך CSS אם תרצה)
-minimal_mistakes_skin: "default"
+# Custom Colors
+minimal_mistakes_skin: "default" # נשאיר את הבסיס ונעדכן דרך CSS מותאם אישית
 
 # Social (אם תרצה בהמשך)
 # social:
@@ -51,4 +69,7 @@ defaults:
     values:
       layout: single
       author_profile: false
-
+      classes: wide
+      toc: false
+      toc_label: "תוכן העמוד"
+      toc_icon: "list"
