@@ -2,6 +2,7 @@
 layout: home
 title: Smartalk – טלפוניה חכמה, תוצאות מנצחות!
 permalink: /
+sidebar: false
 ---
 
 <div style="text-align: center; padding: 2rem;">
