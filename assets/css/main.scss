@@ -147,3 +147,20 @@ body {
 .smartalk-talk {
   color: #40E0D0 !important;
 }
+
+.page {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.page__content {
+  width: 100%;
+}
+.page__sidebar {
+  display: none !important;
+}
+.wrapper {
+  max-width: 100%;
+}
+
+
+
