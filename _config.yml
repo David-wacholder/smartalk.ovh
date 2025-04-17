@@ -58,8 +58,12 @@ minimal_mistakes_skin: "default" # נשאיר את הבסיס ונעדכן דר�
 #   twitter: your_twitter
 #   linkedin: your_linkedin
 
-# Analytics (לא חובה כרגע)
-# google_analytics: UA-XXXXXXXX-X
+
+analytics:
+  provider: "google-universal" # או google-gtag אם אתה משתמש ב-GA4
+  google:
+    tracking_id: "G-CQKP53Y25C" # או G-XXXXXXX אם זה GA4
+
 
 # Defaults (מאפשר שימוש בפריסה אחידה לכל הקבצים)
 defaults:
