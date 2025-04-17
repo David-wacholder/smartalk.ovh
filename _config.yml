@@ -4,7 +4,7 @@ title_separator: " | "
 name: Smartalk
 subtitle: "מערכת טלפוניה חכמה לעסקים"
 description: "Smartalk - פתרונות טלפוניה מתקדמים לעסקים"
-url: "" # בהמשך תכניס כאן את הדומיין שלך אם יש (למשל: https://smartalk.co.il)
+url: "smartalk.ovh" # בהמשך תכניס כאן את הדומיין שלך אם יש (למשל: https://smartalk.co.il)
 baseurl: "" # השאר ריק אם האתר ברמת root
 logo: "/assets/images/smartalk-logo.png"
 masthead_title: "Smartalk"
