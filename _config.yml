@@ -2,8 +2,8 @@
 title: Smartalk
 title_separator: " | "
 name: Smartalk
-subtitle: "מערכת טלפוניה חכמה לעסקים"
-description: "Smartalk - פתרונות טלפוניה מתקדמים לעסקים"
+subtitle: "טלפוניה חכמה, תוצאות מנצחות!"
+description: "Smartalk - טלפוניה חכמה, תוצאות מנצחות!"
 url: "smartalk.ovh" # בהמשך תכניס כאן את הדומיין שלך אם יש (למשל: https://smartalk.co.il)
 baseurl: "" # השאר ריק אם האתר ברמת root
 logo: "https://raw.githubusercontent.com/David-wacholder/smartalk.ovh/refs/heads/main/assets/images/%E2%80%8F%E2%80%8Fsmartalk-logo.png"
@@ -19,7 +19,7 @@ direction: rtl # שינוי מ-ltr ל-rtl עבור תמיכה בעברית
 author:
   name: Smartalk
   avatar: "/assets/images/smartalk-logo.png" # עדכון נתיב לתיקייה הנכונה
-  bio: "מערכת טלפוניה לעסק שלך"
+  bio: "טלפוניה חכמה, תוצאות מנצחות!"
   location: "Israel"
 
 # Theme
