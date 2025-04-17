@@ -120,3 +120,21 @@ h1, h2, h3, h4, h5, h6 {
     color: $accent-color;
   }
 }
+
+
+@media (min-width: 768px) {
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+
+  body {
+    padding-top: 80px;
+  }
+}
+
